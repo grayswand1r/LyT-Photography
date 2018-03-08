@@ -15,6 +15,7 @@
     html, body {
       margin: 0;
       padding: 0;
+	  width: 90%;
     }
 
     * {
@@ -22,16 +23,17 @@
     }
 
     .slider {
-        width: 50%;
-        margin: 100px auto;
+        width: 70%;
+		height: 300%;
     }
 
     .slick-slide {
-      margin: 0px 20px;
+
     }
 
     .slick-slide img {
-      width: 115%;
+	  height: 300%;
+	  width: 100%;
     }
 
     .slick-prev:before,
@@ -42,15 +44,12 @@
 
     .slick-slide {
       transition: all ease-in-out .3s;
-      opacity: .2;
     }
     
     .slick-active {
-      opacity: .5;
     }
 
     .slick-current {
-      opacity: 1;
     }
   </style>
 <style>
@@ -65,8 +64,9 @@
 	
 	<body>
 		<div class="row custom">
+		<div class="col-xs-4">
 		<nav class="nav flex-column">
-			<div class="navbar-brand" href="#">LYNSEY</div>
+			<div class="navbar-brand" href="#" >LYNSEY</div>
 			<div class="navbar-brand" href="#">TURNER</div>
 			<div class="navbar-brand" href="#">PHOTOGRAPHY</div>
 			<a class="nav-link active" href="#">Home</a>
@@ -76,8 +76,9 @@
 			<a class="nav-link" href="#">Blog</a>
 			<a class="nav-link" href="#">Contact + About me</a>
 		</nav>
-	
-		<section class="regular slider">
+		</div>
+		
+<section class="regular slider">
     <div>
       <img src="./goodfeelings.jpg">
     </div>
@@ -91,7 +92,7 @@
       <img src="./kitkat.jpg">
     </div>
    </section>
-  
+
   
 </div>
 
