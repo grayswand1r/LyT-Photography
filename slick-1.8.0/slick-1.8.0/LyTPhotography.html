@@ -21,10 +21,11 @@
 
     * {
       box-sizing: border-box;
+	  overflow:visible;
     }
 
     .slider {
-		height: 300%;
+
     }
 
     .slick-slide {
@@ -148,8 +149,8 @@
         slidesToScroll: 3
       });
       $(".regular").slick({
-	    nextArrow: '<button type="button" class="slick-next" style="position: absolute; top: 0; right: 0;"  id="next">Next</button>',
-		prevArrow: '<button type="button" class="slick-prev" style="position: absolute; top: 0; left: 0;" id="prev">Previous</button>',
+	    nextArrow: '<button type="button" class="slick-next" style="position: absolute; bottom: 0; right: 0;"  id="next">Next</button>',
+		prevArrow: '<button type="button" class="slick-prev" style="position: absolute; bottom: 0; left: 0; z-index: 99 !important;" id="prev">Previous</button>',
 		focusOnChange: true,
         dots: false,
         infinite: true,
